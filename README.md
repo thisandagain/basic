@@ -30,6 +30,10 @@ http.createServer(function (req, res) {
 }).listen(8000);
 ```
 
+```bash
+curl --head -H "Authorization:Basic bGV0Om1lIGlu" http://localhost:8000
+```
+
 ### Testing
 ```bash
 npm test
