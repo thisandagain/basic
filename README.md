@@ -19,7 +19,12 @@ var auth    = basic(function (user, pass, callback) {
 
 http.createServer(function (req, res) {
     auth(req, res, function (err) {
-        res.write('Ok!');
+        if (err) {
+            res.writeHead(err);
+            res.end();
+        }
+        
+        res.writeHead(200);
         res.end();
     });
 }).listen(8000);
