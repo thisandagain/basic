@@ -11,7 +11,6 @@ npm install basic
 var basic   = require('basic'),
     http    = require('http');
 
-
 var auth    = basic(function (user, pass, callback) {
     if (user === 'let' && pass === 'me in') return callback(null);
     callback(401);
