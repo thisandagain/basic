@@ -1,13 +1,13 @@
 {
   "author": "Andrew Sliwinski <andrew@diy.org> (https://diy.org)",
-  "name": "__name__",
-  "description": "__description__",
-  "version": "0.1.0",
-  "homepage": "https://github.com/thisandagain/__name__",
+  "name": "basic",
+  "description": "HTTP Basic Auth for Node.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/thisandagain/basic",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/thisandagain/__name__.git"
+    "url": "https://github.com/thisandagain/basic.git"
   },
   "main": "./lib/index.js",
   "scripts": {
