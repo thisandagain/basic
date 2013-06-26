@@ -18,7 +18,7 @@ var auth    = basic(function (user, pass, callback) {
 
 http.createServer(function (req, res) {
     auth(req, res, function (err) {
-	var head = (err) ? {'WWW-Authenticate': 'Basic realm="Secure Area"'} : {};
+        var head = (err) ? {'WWW-Authenticate': 'Basic realm="Secure Area"'} : {};
         res.writeHead(err || 200, head);
         res.end();
     });
