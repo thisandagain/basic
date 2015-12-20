@@ -8,10 +8,10 @@ npm install basic
 
 ### Basic Use
 ```javascript
-var basic   = require('basic'),
-    http    = require('http');
+var http = require('http');
+var basic = require('../../lib/index');
 
-var auth    = basic(function (user, pass, callback) {
+var auth = basic(function (user, pass, callback) {
     if (user === 'let' && pass === 'me in') return callback(null);
     callback(401);
 });

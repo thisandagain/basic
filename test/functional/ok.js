@@ -1,17 +1,17 @@
-var test    = require('tap').test,
-    basic   = require(__dirname + '/../../lib/index.js');
+var test = require('tap').test;
+var basic = require(__dirname + '/../../lib/index.js');
 
 // Mock
-var auth    = basic(function (user, pass, callback) {
+var auth = basic(function (user, pass, callback) {
     if (user === 'foo' && pass === 'bar') return callback(null);
     callback(401);
 });
-var req     = {
+var req = {
     headers: {
         'Authorization': 'Basic Zm9vOmJhcg=='
     }
 };
-var res     = {};
+var res = {};
 
 // Test
 auth(req, res, function (err) {

@@ -1,1 +1,0 @@
-require('jshint-tap-simple').run(__dirname + '/../../lib/*.js');
