@@ -1,6 +1,8 @@
 ## basic
 #### [HTTP Basic Auth](http://www.ietf.org/rfc/rfc2617.txt) for Node.js
 
+[![Build Status](https://travis-ci.org/thisandagain/basic.svg)](https://travis-ci.org/thisandagain/basic)
+
 ### Installation
 ```bash
 npm install basic
