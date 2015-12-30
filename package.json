@@ -1,8 +1,8 @@
 {
-  "author": "Andrew Sliwinski <andrew@diy.org> (https://diy.org)",
+  "author": "Andrew Sliwinski <andrewsliwinski@acm.org>",
   "name": "basic",
   "description": "HTTP Basic Auth for Node.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/thisandagain/basic",
   "license": "MIT",
   "repository": {
