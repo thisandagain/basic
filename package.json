@@ -2,7 +2,7 @@
   "author": "Andrew Sliwinski <andrewsliwinski@acm.org>",
   "name": "basic",
   "description": "HTTP Basic Auth for Node.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/thisandagain/basic",
   "license": "MIT",
   "repository": {
@@ -15,8 +15,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "~1.10.3",
-    "tap": "~5.4.2"
+    "eslint": "^1.10.3",
+    "tap": "^5.4.2"
   },
   "optionalDependencies": {},
   "engines": {
