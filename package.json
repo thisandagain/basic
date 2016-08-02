@@ -2,7 +2,7 @@
   "author": "Andrew Sliwinski <andrewsliwinski@acm.org>",
   "name": "basic",
   "description": "HTTP Basic Auth for Node.js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "https://github.com/thisandagain/basic",
   "license": "MIT",
   "repository": {
