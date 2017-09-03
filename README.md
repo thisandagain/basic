@@ -2,7 +2,7 @@
 #### [HTTP Basic Auth](http://www.ietf.org/rfc/rfc2617.txt) for Node.js
 
 [![Build Status](https://travis-ci.org/thisandagain/basic.svg?branch=master)](https://travis-ci.org/thisandagain/basic)
-[![Dependency Status](https://david-dm.org/thisandagain/basic.svg)](https://david-dm.org/thisandagain/basic)
+[![Greenkeeper badge](https://badges.greenkeeper.io/thisandagain/basic.svg)](https://greenkeeper.io/)
 
 ### Installation
 ```bash
