@@ -16,7 +16,7 @@
   "dependencies": {},
   "devDependencies": {
     "eslint": "^4.6.1",
-    "tap": "^10.1.0"
+    "tap": "^11.0.0"
   },
   "optionalDependencies": {},
   "engines": {
